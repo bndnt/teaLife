@@ -169,6 +169,7 @@ body{
     height: 50px;
     /*border-right:1px solid #15ad09;*/
 }
+
 .input{
 color: #cccccc;
 border-radius: 10px;
@@ -185,7 +186,7 @@ border-radius: 10px;
 
 .secMenu{
     margin-top: 25px;
-    width: 400px;
+    width: 420px;
     height: 550px;
     border:1px solid #0db100;
     font-size: 17pt;
@@ -194,12 +195,14 @@ border-radius: 10px;
     padding-left: 15px;
 
 }
+
 .secMenu p{
     text-decoration: none;
     font-size: 23pt;
     text-transform: uppercase;
     text-align: center;
-    color: black;
+    color: #4b3221;
+    font-weight: 300;
 }
 
 .secMenu li{
@@ -216,11 +219,12 @@ border-radius: 10px;
 }
 
 .filter{
-    width: 400px;
+    width: 420px;
     height: 1250px;
     border:1px solid #0db100;
     font-size: 17pt;
     margin-top: 45px;
+    padding:15px 7px 0 10px;
 }
 
 .filter p{
@@ -228,7 +232,53 @@ border-radius: 10px;
     font-size: 23pt;
     text-transform: uppercase;
     text-align: center;
-    color: black;
+    font-weight: 300;
+    color: #4b3221;
+}
+
+#teaaa{
+    margin-top: 15px;
+    width: 380px;
+    border:1px solid #868585;
+    color:#868585;
+    border-radius: 5px;
+    padding:3px 3px 3px 10px;
+}
+
+#type{
+    margin-top: 35px;
+    width: 380px;
+    border:1px solid #868585;
+    color:#868585;
+    border-radius: 5px;
+}
+
+#taste{
+    margin-top: 35px;
+    width: 380px;
+    border:1px solid #868585;
+    color:#868585;
+    border-radius: 5px;
+    padding:3px 0 3px 10px;
+}
+
+#text2{
+    text-decoration: none;
+    font-size: 15pt;
+    text-transform: none;
+    color:#868585;
+    margin-top: 25px;
+    text-align: left;
+    word-spacing: 12px;
+    font-weight: 400;
+    padding-left: 7px;
+}
+
+.filter input{
+    width:90px;
+    border:1px solid #868585;
+    color:#868585;
+    padding-left: 12px;
 }
 
 .goods{
@@ -237,6 +287,7 @@ border-radius: 10px;
     margin-top: -1750px;
     /*border: 1px solid #0db100;*/
     width: 1400px ;
+    padding:3px 3px 3px 10px;
 }
 
 .bt{
