@@ -220,7 +220,7 @@ border-radius: 10px;
 
 .filter{
     width: 420px;
-    height: 1250px;
+    height: 1200px;
     border:1px solid #0db100;
     font-size: 17pt;
     margin-top: 45px;
@@ -242,7 +242,7 @@ border-radius: 10px;
     border:1px solid #868585;
     color:#868585;
     border-radius: 5px;
-    padding:3px 3px 3px 10px;
+    padding:10px 0 10px 10px;
 }
 
 #type{
@@ -251,6 +251,7 @@ border-radius: 10px;
     border:1px solid #868585;
     color:#868585;
     border-radius: 5px;
+    padding:10px 0 10px 10px;
 }
 
 #taste{
@@ -259,7 +260,7 @@ border-radius: 10px;
     border:1px solid #868585;
     color:#868585;
     border-radius: 5px;
-    padding:3px 0 3px 10px;
+    padding:10px 0 10px 10px;
 }
 
 #text2{
@@ -272,6 +273,7 @@ border-radius: 10px;
     word-spacing: 12px;
     font-weight: 400;
     padding-left: 7px;
+    padding-top: 10px;
 }
 
 .filter input{
@@ -279,6 +281,48 @@ border-radius: 10px;
     border:1px solid #868585;
     color:#868585;
     padding-left: 12px;
+}
+
+#wdth{
+    margin-top: 35px;
+    width: 380px;
+    border:1px solid #868585;
+    color:#868585;
+    border-radius: 5px;
+    padding:10px 0 10px 10px;
+}
+
+#text3{
+    text-decoration: none;
+    font-size: 15pt;
+    text-transform: none;
+    color:#868585;
+    margin-top: 25px;
+    text-align: left;
+    word-spacing: 12px;
+    font-weight: 400;
+    padding-left: 7px;
+    padding-top: 10px;
+    line-height: 3;
+    /*color: #0db100;*/
+}
+
+.comp{
+    color: #0db100;
+}
+
+.btFilter{
+    margin:15px auto;
+    background: #0db100;
+    border-radius: 22px;
+    height: 50px;
+    width:250px;
+    text-align: center;
+    color:#fff;
+    box-shadow: 0 5px 5px gray;
+    font-weight: 300;
+    padding: 10px 15px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .goods{
