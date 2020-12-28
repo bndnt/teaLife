@@ -187,13 +187,13 @@ border-radius: 10px;
 .secMenu{
     margin-top: 25px;
     width: 420px;
-    height: 550px;
+    height: 510px;
     border:1px solid #0db100;
     font-size: 17pt;
     color:#0db100;
     padding-top: 20px;
     padding-left: 15px;
-
+    border-bottom: 1px solid #fff;
 }
 
 .secMenu p{
@@ -218,6 +218,25 @@ border-radius: 10px;
     color: #ff983c;
 }
 
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 211px solid transparent;
+    border-right: 211px solid transparent;
+    border-top: 55px solid #0db100;
+    margin-left: -1px;
+}
+
+#triangle-down2{
+    width: 0;
+    height: 0;
+    border-left: 207px solid transparent;
+    border-right: 207px solid transparent;
+    border-top: 54px solid white;
+    margin-top:-58px;
+    margin-left: 2px;
+}
+
 .filter{
     width: 420px;
     height: 1200px;
@@ -225,6 +244,7 @@ border-radius: 10px;
     font-size: 17pt;
     margin-top: 45px;
     padding:15px 7px 0 10px;
+    border-bottom: 1px solid white;
 }
 
 .filter p{
@@ -328,7 +348,7 @@ border-radius: 10px;
 .goods{
     float:none;
     margin-left: 425px;
-    margin-top: -1750px;
+    margin-top: -2000px;
     /*border: 1px solid #0db100;*/
     width: 1400px ;
     padding:3px 3px 3px 10px;
@@ -346,6 +366,25 @@ border-radius: 10px;
     font-weight: 400;
 }
 
+#triangle-down3 {
+    width: 0;
+    height: 0;
+    border-left: 211px solid transparent;
+    border-right: 211px solid transparent;
+    border-top: 55px solid #0db100;
+    margin-left: -1px;
+}
+
+#triangle-down4{
+    width: 0;
+    height: 0;
+    border-left: 207px solid transparent;
+    border-right: 207px solid transparent;
+    border-top: 54px solid white;
+    margin-top:-58px;
+    margin-left: 2px;
+}
+
 .teaGoo{
     margin: 25px;
     padding: 25px;
@@ -357,3 +396,22 @@ border-radius: 10px;
     margin-top: 10px;
     padding-left: 15px;
 }
+
+/*#triangle-down5 {*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-left: 211px solid transparent;*/
+/*    border-right: 211px solid transparent;*/
+/*    border-top: 55px solid #0db100;*/
+/*    margin-left: -1px;*/
+/*}*/
+
+/*#triangle-down6{*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border-left: 207px solid transparent;*/
+/*    border-right: 207px solid transparent;*/
+/*    border-top: 54px solid white;*/
+/*    margin-top:-58px;*/
+/*    margin-left: 2px;*/
+/*}*/
