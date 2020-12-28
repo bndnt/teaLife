@@ -148,8 +148,11 @@ body{
     background: #19bf0c;
     color:#fff;
     border-radius: 40px;
-    margin:auto;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-bottom: 55px;
     box-shadow: 0 10px 5px gray;
+
 }
 
 .li{
@@ -159,7 +162,7 @@ body{
     /*margin-left: 12px;*/
     display:block;
     float:left;
-    height: 50px;
+    height: 70px;
     border-right:2px solid #15ad09;
     padding-right: 20px;
     padding-left: 20px;
@@ -170,7 +173,7 @@ body{
     font-size: 17pt;
     color: #FFF;
     font-weight: 600;
-    height: 50px;
+    height: 70px;
     /*border-right:1px solid #15ad09;*/
 }
 
@@ -185,7 +188,7 @@ border-radius: 10px;
 
 .li:hover{
     background: #ff9833;
-    height: 50px;
+    height: 70px;
 }
 
 .secMenu{
@@ -349,6 +352,10 @@ border-radius: 10px;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.btFilter:hover{
+    background: #ff9936;
+}
+
 .goods{
     float:none;
     margin-left: 425px;
@@ -367,10 +374,6 @@ border-radius: 10px;
     padding-top: 10px;
     box-shadow: 0 5px 5px gray;
     font-weight: 400;
-}
-
-.bt:hover{
-   background: #ff9936;
 }
 
 #triangle-down3 {
