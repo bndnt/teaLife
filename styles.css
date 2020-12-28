@@ -376,6 +376,10 @@ border-radius: 10px;
     font-weight: 400;
 }
 
+.bt:hover{
+    background: #ff9936;
+}
+
 #triangle-down3 {
     width: 0;
     height: 0;
